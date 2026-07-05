@@ -28,8 +28,6 @@ O projeto possui 5 tabelas relacionadas contendo chaves primárias/estrangeiras 
 * 📁 `backup/`
   * 📄 `backup_logico.sql`: Arquivo em formato de texto puro contendo todas as instruções SQL (`CREATE TABLE`, `INSERT`, etc.) necessárias para reconstruir o banco do zero.
   * 📄 `backup_completo.backup`: Arquivo gerado no formato customizado e compactado do PostgreSQL. Garante a integridade total do banco e permite a restauração limpa, apagando conflitos antes de recriar os dados.
-* 📁 `docs/`
-  * 📄 `Relatorio_Tecnico.pdf`: Relatório final nos padrões ABNT contendo a fundamentação teórica, diagrama do banco, dificuldades encontradas e resultados dos testes.
 
 ---
 
@@ -44,6 +42,6 @@ Foram criados 3 níveis de acesso para simular o ambiente da loja virtual
 
 ## 👥 Equipe
 
-* Alysson Souza Pina Viana
+* Allyson Souza Pina Viana
 * Bruno dos Santos Moreira
 * Felipe da Costa Morais
